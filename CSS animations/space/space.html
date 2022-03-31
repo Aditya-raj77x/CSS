@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>space</title>
+    <style>
+        #ot{
+            position: relative;
+            height: 800px;
+            
+            background:black url(aa.jpg);
+            
+            color: white;
+        }
+        div.roc{
+            position: absolute;
+            bottom: 500px;
+            left:20px;
+            -webkit-transition: 3s ease-in;
+            -moz-transition: 3s ease-in;
+            -o-transition: 3s ease-in;
+            transition: 3s ease-in;
+        }
+       div.roc div{
+           width: 92px;
+           height: 10px;
+           background: url(rocket.gif) no-repeat;
+           -webkit-transition: 2s ease-in-out;
+           -moz-transition: 2s ease-in-out;
+           -o-transition: 2s ease-in-out;
+           transition: 2s ease-in-out;
+
+       } 
+       #ot:hover div.roc{
+           -webkit-transform: translate(540px,200px);
+           -moz-transform: translate(540px,200px);
+           -o-transform: translate(540px,200px);
+           transform: translate(540px,200px);
+        
+       }
+       #ot:hover div.roc div{
+        -webkit-transform:rotate(70deg);
+        -moz-transform:rotate(70deg);
+        -o-transform:rotate(70deg);
+        transform: rotate(70deg);
+       }
+    </style>
+</head>
+<body>
+    <div id="ot">
+        <div class="roc">
+            <div><!--ROCKET-->
+            <img src="rocket.gif">
+        </div>
+        </div>
+    </div>
+</body>
+</html>
