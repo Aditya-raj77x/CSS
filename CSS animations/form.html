@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>job application</title>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-image: url(araj.jfif);
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .main_heading{
+                background-color: rgb(0,0,0,0.5);
+                margin: auto;
+                color: white;
+                text-align: center;
+                padding: 10px 0px 10px 0px;
+                border-radius: 15px 15px 15px 15px;
+                width: 500px;
+
+            }
+            .ff{
+               
+                
+                background-color: rgba(0, 0, 0, 0.5);
+                width: 500px;
+                margin: auto;
+                
+            }
+            form{
+                padding: 10px;
+                
+            }
+            .pp{
+                width: 100%;
+                height: 210px;
+                color: white;
+            }
+            .pph{
+                margin-left: 100px;
+                color: white;
+                font-size: 18px;
+                
+            }
+            .edh{
+               
+                color: white;
+                font-size: 18px;
+            }
+            .ifname{
+                position: relative;
+                left: 100px;
+            }
+            .ilname{
+                position: relative;
+                left: 100px;
+            }
+            .imname{
+                position: relative;
+                left: 75px;
+            }
+            .iadd{
+                position: relative;
+                left: 120px;
+            }
+            .iphone{
+                position: relative;
+                left: 55px;
+            }
+            .ee{
+                
+                color: white;
+            }
+            .edh{
+                text-align: left;
+            }
+            button{
+                transform: translateX(150px);
+                background-color: black;
+                color: white;
+                text-align: center;
+                position: relative;
+                display: block;
+                border: 2px solid red;
+            }
+
+        </style>
+        <script>
+            dd=()=>{
+                document.write("yor form have been submited")
+            }
+        </script>
+    </head>
+    <body>
+        <div class="main_heading">
+            <h1>REGESTRASION FORM</h1>
+        </div>
+        <div class="ff">
+            <form>
+                <div class="pp">
+                    <h2 class="pph">PERSONAL DETAILS</h2>
+                    <h3 class="fname">FIRST NAME:<input type="text" placeholder="first nnamr" class="ifname"></h3>
+                    <h3 class="fname">MIDDLE NAME:<input type="text" placeholder="middle nnamr" class="imname"></h3>
+                    <h3 class="fname">LAST NAME:<input type="text" placeholder="last nnamr" class="ilname"></h3>
+                    
+                    <h3 class="add">ADDRESS:<input type="text" placeholder="address" class="iadd"></h3>
+                    <h3 class="phone">PHONE NUMBER:<input type="number" placeholder="enter phone number" class="iphone"></h3>
+                    <h3 class="gender">GENDER
+                        
+                    </h3><p class="male">MALE:<input class="im" type="radio" ></p>
+                    <p class="male">FEMALE:<input class="if" type="radio" ></p>
+                </div>
+                <div class="ed">
+                    <h2 class="edh">EDUCATION DETAILS</h2>
+                    <select class="ss" name="educations">
+                        <option>10th pass</option>
+                        <option>12th pass</option>
+                        <option>graducation</option>
+                        <option>others</option>
+
+
+                    </select>
+                    <h3 class="ee">EXPRINCE in MONTHS<input type="number" placeholder="exprince" class="iee"></h3>
+
+                </div>
+                <button class="btn" onclick="dd()" type="submit">SUBmit</button>
+                
+            </form>
+        </div>
+
+
+
+    </body>
+</html>
